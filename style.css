@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegador{
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right:0 ;
+  top: 0;
+  padding: 0 5%;
+  height: 100px;
+ 
+
+  
+}
+
+.flexynav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: blueviolet;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+}
+.flexynav li {
+  list-style: none;
+    
+}
+.home{
+    height: 100vh;
+    width:100% ;
+    background-color: black;
+}
+.home img{
+    height: 100vh;
+    width:100% ;
+    object-fit: cover;
+    object-position:60%;
+    
+}
+main{
+    background-color: black;
+}
+
+.informacion{
+    text-align: center;
+    border: 1px solid navajowhite;
+    background-color: chartreuse;
+    margin-top: 10px;
+}
+
+.formu{
+  
+  padding-top: 2rem;
+  height: 350px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 
+}
+.inform{
+  align-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.informacion_uno{
+   
+    border: 1px solid navajowhite;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.informacion_uno p{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.containerGaleria{
+    background-color: crimson;
+    text-align: center;
+
+}
+
+.containerFormulario{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.containerFormulario .inform{
+    margin-top: 2em;
+}
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    border: 2px solid rebeccapurple;
+}
+footer{
+    background-color: black;
+}
+
+.estiloFooter{
+    background-color:limegreen;
+    align-content: center;
+    align-content: space-around;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem ;
+}
+
+.estiloFooter nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.estiloFooter img{
+    height:150px;
+    border-radius: 50%;
+    margin: 1em;
+    flex-wrap: wrap;
+ 
+   
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    border: 2px solid white;
+    box-shadow: 3px 5px 5px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+
+  .galeria_total{
+    margin: 1em;
+
+  }
+
+  .card{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  .card h2{
+    margin: 1em;
+    text-align: center;
+  }
+  .card img{
+    height: 5em;
+
+  }
+
+  .card_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   }
